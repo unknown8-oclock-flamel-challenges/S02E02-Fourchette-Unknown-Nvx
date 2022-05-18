@@ -2,7 +2,6 @@ let randomNumber = Math.round(Math.random() * 500);
 let victory = false;
 
 while(!victory){
-
 let userInput = Number(prompt("Saisisez un nombre !"));
 
 switch(true){
@@ -20,7 +19,4 @@ switch(true){
     alert("C'est plus!");
     break;
 }
-
-console.log(userInput);
-
 }
